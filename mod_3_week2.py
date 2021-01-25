@@ -63,6 +63,17 @@ print(map(lambda x: x*2, filter(lambda y: y % 2 == 0, things)))
 # equivalent version using list comprehension
 print([x*2 for x in things if x % 2 == 0])
 
+#List Comprehensions
+
+L = [12, 34, 21, 4, 6, 9, 42]
+lst = []
+for x in L:
+    if x > 10:
+        lst.append(x)
+print(lst)
+
+lst2 = [num for num in L if num >10]
+
 
 
 
