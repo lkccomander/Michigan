@@ -30,7 +30,7 @@ print(list(map((lambda value: 5*value), [1, 2, 3])))
 things5 = map((lambda value: 7*value),things)
 print(list(things5))
 
-# lambda
+# lambda 34 
 
 lst = [["hi", "bye"], "hello", "goodbye", [9, 2], 4]
 
